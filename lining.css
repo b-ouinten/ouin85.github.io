@@ -79,7 +79,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .search-field
@@ -92,10 +92,16 @@ body
 .search-field > input
 {
     width: 600px;
-    height:41px;
-    border: 1px solid rgb(209, 209, 209);
+    height:50px;
+    padding-left: 50px;
+    border: 1px solid rgb(218, 216, 216);
     box-shadow: 0px 1px 6px 0px rgba(32, 33, 36, 0.28);
     border-radius: 30px;
+}
+
+.search-field > input:focus
+{
+    outline: none;
 }
 
 #search-icon
@@ -103,7 +109,7 @@ body
     width: 0.9em;
     height: 0.9em;
     position: relative;
-    top: 35px;
+    top: 37px;
     left: 20px;
 }
 
@@ -112,8 +118,8 @@ body
     width: 1em;
     height: 1.3em;
     position:relative;
-    left: 570px;
-    bottom: 33px;
+    left: 565px;
+    bottom: 35px;
 }
 
 .doctor
@@ -137,15 +143,40 @@ body
 .btn
 {
     display: flex;
-    margin-top: 0px;
+    justify-content: space-between;
+    width: 50%;
+    /* margin-top: 0px; */
 }
 
 .btn > button
 {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 50%;
+    height: 36px;
     margin: 0px 5px;
-    height: 30px;
-    border: non;
+    padding: 0px;
+    cursor: pointer;
+    line-height: 36px;
 }
+
+.btn > button:hover
+{
+    border: 0.5px solid #b1b1b1;
+    color: rgb(27, 26, 26);
+}
+
+.btn > button:focus
+{
+    outline: none;
+    border: 0.5px solid #2177d8;
+    
+}
+    
+
 
 .covid19-tips
 {
