@@ -66,11 +66,12 @@ body
 .header-link:hover
 {
     text-decoration: underline;
+    color: gray;
 }
 
 .header-link:visited
 {
-    color: rgba(0, 0, 0, .54);
+    color: rgb(54, 53, 53);
 }
 
 .middle-container
@@ -93,26 +94,26 @@ body
     width: 600px;
     height:41px;
     border: 1px solid rgb(209, 209, 209);;
-    box-shadow: 1px 1px 1px rgb(209, 209, 209);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
     border-radius: 30px;
 }
 
 #search-icon
 {
-    width: 1em;
-    height: 1em;
+    width: 0.9em;
+    height: 0.9em;
     position: relative;
     top: 35px;
-    left: 10px;
+    left: 20px;
 }
 
 #micro-icon
 {
     width: 1em;
-    height: 1.5em;
+    height: 1.3em;
     position:relative;
-    left: 580px;
-    bottom: 35px;
+    left: 570px;
+    bottom: 33px;
 }
 
 .doctor
@@ -210,12 +211,12 @@ body
 
 .left-footer > div
 {
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .right-footer > div
 {
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 .right-footer
@@ -235,16 +236,12 @@ body
     text-align: center;
     font-size: 13px;
     text-decoration: none;
+    color: blue;
 }
 
 .link:hover
 {
     text-decoration: underline;
-}
-
-.link:visited
-{
-    color: blue;
 }
 
 .footer-link
@@ -290,14 +287,14 @@ body
     background-color: #f2f2f2;
     border: 1px solid #e4e4e4;
     line-height: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 14px;
 }
 
 .france
 {
-    margin: 0 5px;
+    margin: 0 10px;
 }
 
 /* .France
